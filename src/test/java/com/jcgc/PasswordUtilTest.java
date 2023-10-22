@@ -1,8 +1,9 @@
 package com.jcgc;
 
+import com.jcgc.util.PasswordUtil;
 import org.junit.jupiter.api.Test;
 
-import static com.jcgc.PasswordUtil.SecurityLevel.*;
+import static com.jcgc.util.PasswordUtil.SecurityLevel.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class PasswordUtilTest {

@@ -1,4 +1,4 @@
-package com.jcgc;
+package com.jcgc.util;
 
 public class PasswordUtil {
 

@@ -1,4 +1,4 @@
-package com.jcgc;
+package com.jcgc.player;
 
 public class Player {
 

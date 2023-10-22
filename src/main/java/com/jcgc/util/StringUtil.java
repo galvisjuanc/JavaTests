@@ -1,4 +1,4 @@
-package com.jcgc;
+package com.jcgc.util;
 
 import java.util.stream.IntStream;
 

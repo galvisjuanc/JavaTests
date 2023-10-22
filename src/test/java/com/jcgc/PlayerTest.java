@@ -1,5 +1,7 @@
 package com.jcgc;
 
+import com.jcgc.player.Dice;
+import com.jcgc.player.Player;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
