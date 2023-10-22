@@ -25,4 +25,24 @@ public class StringUtilTest {
     public void repeat_string_negative_times() {
         Assertions.assertThrows(IllegalArgumentException.class, () -> StringUtil.repeat("hola", -1));
     }
+
+    @Test
+    public void test_string_is_not_empty() {
+        Assertions.assertFalse(StringUtil.isEmpty("Juan"));
+    }
+
+    @Test
+    public void empty_quote_is_string_empty() {
+        Assertions.assertTrue(StringUtil.isEmpty(""));
+    }
+
+    @Test
+    public void null_is_string_empty() {
+        Assertions.assertTrue(StringUtil.isEmpty(null));
+    }
+
+    @Test
+    public void string_spaces_is_string_empty() {
+        Assertions.assertTrue(StringUtil.isEmpty("  "));
+    }
 }
