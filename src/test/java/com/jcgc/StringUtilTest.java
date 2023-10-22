@@ -7,8 +7,8 @@ import static org.junit.jupiter.api.Assertions.*;
 public class StringUtilTest {
 
     public static void main(String[] args) {
-        Assertions.assertEquals(StringUtil.repeat("hola", 3), "holaholahola");
-        Assertions.assertEquals(StringUtil.repeat("hola", 1), "hola");
+        Assertions.assertEquals("holaholahola", StringUtil.repeat("hola", 3));
+        Assertions.assertEquals("hola", StringUtil.repeat("hola", 1));
     }
 
 }
