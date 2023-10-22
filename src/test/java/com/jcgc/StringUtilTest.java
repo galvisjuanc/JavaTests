@@ -21,4 +21,9 @@ public class StringUtilTest {
     public void repeat_string_zero_times() {
         Assertions.assertEquals("", StringUtil.repeat("hola", 0));
     }
+
+    @Test
+    public void repeat_string_negative_times() {
+        Assertions.assertThrows(IllegalArgumentException.class, () -> StringUtil.repeat("hola", -1));
+    }
 }
