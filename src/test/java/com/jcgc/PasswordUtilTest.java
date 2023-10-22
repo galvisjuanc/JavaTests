@@ -2,8 +2,7 @@ package com.jcgc;
 
 import org.junit.jupiter.api.Test;
 
-import static com.jcgc.PasswordUtil.SecurityLevel.MEDIUM;
-import static com.jcgc.PasswordUtil.SecurityLevel.WEAK;
+import static com.jcgc.PasswordUtil.SecurityLevel.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class PasswordUtilTest {
@@ -21,5 +20,10 @@ class PasswordUtilTest {
     @Test
     void medium_when_has_letters_and_numbers() {
         assertEquals(MEDIUM, PasswordUtil.assessPassword("abcd1234"));
+    }
+
+    @Test
+    void strong_when_has_letters_numbers_and_symbols() {
+        assertEquals(STRONG, PasswordUtil.assessPassword("abcd123!"));
     }
 }

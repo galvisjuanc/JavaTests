@@ -13,7 +13,9 @@ public class PasswordUtil {
         if (password.matches("[a-zA-Z]+")) {
             return SecurityLevel.WEAK;
         }
-
-        return SecurityLevel.MEDIUM;
+        if (password.matches("[a-zA-Z0-9]+")){
+            return SecurityLevel.MEDIUM;
+        }
+        return SecurityLevel.STRONG;
     }
 }
