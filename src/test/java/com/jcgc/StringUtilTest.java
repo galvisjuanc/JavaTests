@@ -1,9 +1,8 @@
 package com.jcgc;
 
+import com.jcgc.util.StringUtil;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 public class StringUtilTest {
 
