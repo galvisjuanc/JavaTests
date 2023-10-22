@@ -4,15 +4,13 @@ import java.util.stream.IntStream;
 
 public class StringUtil {
     public static String repeat(String str, int times) {
-        return IntStream.range(0, times).mapToObj(i -> str).reduce("", (s1, s2) -> s1 + s2);
-        /*
-        * String result = "";
-        *
-        * for (int i = 0; i < times; i++) {
-        *   result += str;
-        * }
-        *
-        * return result;
-        * */
+
+        String result = "";
+
+        for (int i = 0; i < times; i++) {
+          result += str;
+        }
+
+        return result;
     }
 }
