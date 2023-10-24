@@ -21,4 +21,16 @@ class PriceCalculatorShould {
 
         assertThat(calculator.getTotal(), is(25.7));
     }
+
+    @Test
+    void apply_discount_to_prices() {
+        PriceCalculator calculator = new PriceCalculator();
+
+        calculator.addPrice(12.5);
+        calculator.addPrice(17.5);
+
+        calculator.setDiscount(50);
+
+        assertThat(calculator.getTotal(), is(15.0));
+    }
 }
