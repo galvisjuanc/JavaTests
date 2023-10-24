@@ -1,3 +1,29 @@
 
 ?
 GitCreation.txt,2\5\25fe8f7c4d3d0025b702a79e26172a5fd9e111a7
+Y
+)src/main/java/com/jcgc/player/Player.java,4\e\4e510c12153ec5fa5455b87f27f3735f826a9d70
+V
+&src/test/java/com/jcgc/PlayerTest.java,0\5\058d9fa9000037ecdacbb04ebe87a9249d58d3a9
+W
+'src/main/java/com/jcgc/player/Dice.java,6\5\65220726607ba214f12be4d37f94ad69cb9fd929
+[
++src/main/java/com/jcgc/util/StringUtil.java,e\4\e4fb32cfad71b476ab7479d68affbf7ea70cee6f
+c
+3src/main/java/com/jcgc/payments/PaymentGateway.java,4\c\4cac57df98c0c9e434803d73bfd448c59e505565
+P
+ src/main/java/com/jcgc/Main.java,4\4\446b26e83fa61639a60d47312110e6b0c542f547
+c
+3src/main/java/com/jcgc/payments/PaymentRequest.java,1\b\1b096e45a20cd033d8a1625626fe64f972fe9d7b
+d
+4src/main/java/com/jcgc/payments/PaymentResponse.java,d\2\d2a7a7a7ffa43e08bc60797e0f98f583f25e8b2b
+e
+5src/main/java/com/jcgc/payments/PaymentProcessor.java,3\9\390996709ed4a680fb0da5a0c6fee7af10a97970
+Z
+*src/test/java/com/jcgc/StringUtilTest.java,b\9\b99d66ee9b0dec0b3e24e8d77f304843e0c4dc3e
+i
+9src/test/java/com/jcgc/payments/PaymentProcessorTest.java,d\c\dc295c291a46a05ecc14f3189f29d8aca9179e7c
+]
+-src/main/java/com/jcgc/util/PasswordUtil.java,9\3\93776043b164a0dfd1715a85fd0b8605723735fe
+\
+,src/test/java/com/jcgc/PasswordUtilTest.java,0\a\0a2c77945dd88a75df53043e3ffa270e013697d4
