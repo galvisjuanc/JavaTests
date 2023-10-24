@@ -10,7 +10,7 @@ class DateUtilLeapYearShould {
     /*
     * All years divisible by 400 ARE leap years (1600, 2000, 2400)
     * All years divisible by 100 but not 400 are NOT leap years (1700, 1800 or 1900)
-    * All years divisible by 4 but not by 100 ARE leap years (1996, 2004, 2008), etc
+    * All years divisible by 4 but not by 100 ARE leap years (1996, 2004, 2008)
     * All years not divisible by 4 are NOT leap years (2017, 2018, 2019).
     * */
     @Test
