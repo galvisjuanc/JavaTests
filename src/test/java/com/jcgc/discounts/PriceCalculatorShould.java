@@ -26,11 +26,12 @@ class PriceCalculatorShould {
     void apply_discount_to_prices() {
         PriceCalculator calculator = new PriceCalculator();
 
-        calculator.addPrice(12.5);
-        calculator.addPrice(17.5);
+        calculator.addPrice(100);
+        calculator.addPrice(50);
+        calculator.addPrice(50);
 
-        calculator.setDiscount(50);
+        calculator.setDiscount(25);
 
-        assertThat(calculator.getTotal(), is(15.0));
+        assertThat(calculator.getTotal(), is(150.0));
     }
 }
