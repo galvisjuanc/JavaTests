@@ -1,6 +1,5 @@
 package com.jcgc.util;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.CoreMatchers.is;
