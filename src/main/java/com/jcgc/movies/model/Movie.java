@@ -1,4 +1,4 @@
-package com.jcgc.movies;
+package com.jcgc.movies.model;
 
 public class Movie {
 
