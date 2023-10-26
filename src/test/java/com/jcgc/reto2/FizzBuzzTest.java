@@ -10,6 +10,8 @@ class FizzBuzzTest {
     /*
     * Si el número es divisible por 3, retorna Fizz
     * Si el número es divisible por 5, retorna Buzz
+    * Si el número es divisible por 3 y por 5, retorna "FizzBuzz"
+    * En otro caso, retorna el mismo número
     * */
 
     @Test
