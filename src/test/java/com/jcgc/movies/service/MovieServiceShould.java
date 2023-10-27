@@ -48,6 +48,7 @@ class MovieServiceShould {
 
     @Test
     void return_movies_by_length() {
+        Collection<Movie> movies = movieService.findMoviesByLength(119);
 
     }
 }
