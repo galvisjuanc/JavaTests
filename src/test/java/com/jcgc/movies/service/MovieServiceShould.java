@@ -4,6 +4,7 @@ import com.jcgc.movies.data.MovieRepository;
 import com.jcgc.movies.model.Genre;
 import com.jcgc.movies.model.Movie;
 import org.hamcrest.CoreMatchers;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
@@ -17,9 +18,10 @@ import static org.hamcrest.MatcherAssert.*;
 
 class MovieServiceShould {
 
-    @Test
-    void return_movies_by_genre() {
+    private MovieService movieService;
 
+    @BeforeEach
+    void setUp() {
         MovieRepository movieRepository = Mockito.mock(MovieRepository.class);
 
         Mockito.when(movieRepository.findAll()).thenReturn
@@ -33,12 +35,21 @@ class MovieServiceShould {
                         new Movie(7, "Matrix", 136, Genre.ACTION)
                 ));
 
-        MovieService movieService = new MovieService(movieRepository);
+        movieService = new MovieService(movieRepository);
+    }
+
+    @Test
+    void return_movies_by_genre() {
 
         Collection<Movie> movies = movieService.findMoviesByGenre(Genre.COMEDY);
 
         List<Integer> movieIds = movies.stream().map(movie -> movie.getId()).collect(Collectors.toList());
 
         assertThat( movieIds, CoreMatchers.is(Arrays.asList(3, 6)));
+    }
+
+    @Test
+    void return_movies_by_length() {
+
     }
 }
