@@ -42,9 +42,7 @@ class MovieServiceShould {
     void return_movies_by_genre() {
 
         Collection<Movie> movies = movieService.findMoviesByGenre(Genre.COMEDY);
-
         List<Integer> movieIds = movies.stream().map(movie -> movie.getId()).collect(Collectors.toList());
-
         assertThat( movieIds, CoreMatchers.is(Arrays.asList(3, 6)));
     }
 
