@@ -1,12 +1,6 @@
 
 ?
 GitCreation.txt,2\5\25fe8f7c4d3d0025b702a79e26172a5fd9e111a7
-Y
-)src/main/java/com/jcgc/player/Player.java,4\e\4e510c12153ec5fa5455b87f27f3735f826a9d70
-V
-&src/test/java/com/jcgc/PlayerTest.java,0\5\058d9fa9000037ecdacbb04ebe87a9249d58d3a9
-W
-'src/main/java/com/jcgc/player/Dice.java,6\5\65220726607ba214f12be4d37f94ad69cb9fd929
 [
 +src/main/java/com/jcgc/util/StringUtil.java,e\4\e4fb32cfad71b476ab7479d68affbf7ea70cee6f
 c
@@ -21,8 +15,6 @@ e
 5src/main/java/com/jcgc/payments/PaymentProcessor.java,3\9\390996709ed4a680fb0da5a0c6fee7af10a97970
 Z
 *src/test/java/com/jcgc/StringUtilTest.java,b\9\b99d66ee9b0dec0b3e24e8d77f304843e0c4dc3e
-i
-9src/test/java/com/jcgc/payments/PaymentProcessorTest.java,d\c\dc295c291a46a05ecc14f3189f29d8aca9179e7c
 ]
 -src/main/java/com/jcgc/util/PasswordUtil.java,9\3\93776043b164a0dfd1715a85fd0b8605723735fe
 \
@@ -45,3 +37,9 @@ _
 /src/main/java/com/jcgc/reto3/RomanNumerals.java,0\1\011b5cb2d6537eb626d5ba02aca79cccce0c2fe6
 c
 3src/test/java/com/jcgc/reto3/arabicToRomanTest.java,1\9\19c5c3ff821b946c9c8761679b3d249942620926
+^
+.src/main/java/com/jcgc/movies/model/Genre.java,6\6\6690ae94631abb489b5578d97332c2a73457ea12
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+^
+.src/main/java/com/jcgc/movies/model/Movie.java,9\2\92b548edd5329dbd51ab9dab29a34f44073a79cd
