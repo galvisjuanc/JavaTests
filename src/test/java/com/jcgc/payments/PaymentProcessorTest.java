@@ -18,7 +18,7 @@ class PaymentProcessorTest {
     }
 
     @Test
-    public void payment_is_correct(){
+    void payment_is_correct(){
 
         Mockito.when(paymentGateway.requestPayment(Mockito.any()))
                 .thenReturn(new PaymentResponse(PaymentResponse.PaymentStatus.OK));
